@@ -1,0 +1,1771 @@
+@font-face {
+    font-family: 'roboto regular';
+    src: url(../Fonts/static/Roboto-Regular.ttf)
+}
+@font-face {
+    font-family: 'roboto bold';
+    src: url(../Fonts/static/Roboto-Bold.ttf)
+}
+@font-face {
+    font-family: 'roboto bold-black';
+    src: url(../Fonts/static/Roboto-Black.ttf)
+}
+@font-face {
+    font-family: 'roboto semi-bold';
+    src: url(../Fonts/static/Roboto-SemiBold.ttf)
+}
+@font-face {
+    font-family: 'roboto light';
+    src: url(../Fonts/static/Roboto-Light.ttf)
+}
+@font-face {
+    font-family: 'roboto extra-bold';
+    src: url(../Fonts/static/Roboto-ExtraBold.ttf)
+}
+@font-face {
+    font-family: 'roboto medium';
+    src: url(../Fonts/static/Roboto-Medium.ttf)
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto regular';
+    /* background-color: black; */
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+.logo h1{
+    color: rgba(2, 48, 71, 1);
+    font-size: 36px;
+}
+#watch_icon{
+    width: 20px;
+    height: 20px;
+}
+#call_icon{
+    width: 18px;
+    height: 18px;
+}
+#emailicon{
+    width: 20px;
+    height: 16px;
+}
+.nav{
+    padding: 25px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.details{
+    display: flex;
+}
+.time{
+    display: flex;
+    padding-top: 10px;
+}
+.time h1{
+    font-size: 16px;
+    margin-left: 30px;
+    font-family: 'roboto light';
+}
+.left_border{
+    border-left: 1px solid rgba(2, 48, 71, 1);
+    height: 35px;
+    margin-left: 40px;
+}
+.contact{
+    display: flex;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+.contact h1{
+    font-size: 16px;
+    margin-left: 30px;
+    font-family: 'roboto light';
+}
+.email{
+    display: flex;
+    padding-top: 10px;
+    margin-left: 30px;
+}
+.email h1{
+    font-size: 16px;
+    margin-left: 30px;
+    font-family: 'roboto light';
+}
+
+
+/* navbar two */
+
+.navbar{
+    padding: 15px 200px;
+    background-color: rgba(2, 48, 71, 1) !important;
+}
+.navbar-nav a{
+    color: rgba(142, 202, 230, 1) !important;
+}
+.buttons button{
+    padding: 15px 30px;
+    border: 2px solid rgba(142, 202, 230, 1);
+    border-radius: 10px;
+    background-color: rgba(2, 48, 71, 1);
+    color: rgba(142, 202, 230, 1);
+    font-family: 'roboto regular';
+}
+.buttons button:nth-child(2){
+    margin-left: 30px;
+}
+.buttons button:hover{
+    background-color: rgba(142, 202, 230, 1);
+    color: rgba(2, 48, 71, 1);
+}
+.container-fluid{
+    padding: 0px;
+}
+.nav-link{
+    font-family: 'roboto regular';
+}
+.nav-link:hover{
+    font-family: 'roboto extra-bold';
+}
+.navbar-brand{
+    display: none;
+}
+
+/* swiper banner */
+
+
+.swiper-slide{
+    height: 750px;
+}
+.swiper-section{
+    position: relative;
+}
+.overlay{
+    background-color: black;
+    width: 100%;
+    height: 750px;
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    opacity: 90%;
+}
+.text{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    z-index: 1;
+}
+.text h1{
+    color: white;
+}
+#search_icon{
+    width: 24px;
+    height: 24px;
+    margin-top: 8px;
+}
+#location_icon{
+    width: 24px;
+    height: 24px;
+    margin-top: 6px;
+}
+#typologies_icon{
+    width: 24px;
+    height: 24px;
+    margin-top: 6px;
+}
+.text h1{
+    font-family: 'roboto regular';
+    font-size: 40px;
+}
+.text h2{
+    font-family: 'roboto extra-bold';
+    font-size: 70px;
+    color: rgba(142, 202, 230, 1);
+    width: 40%;
+    padding-top: 10px;
+}
+.banner_button{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 10px 60px;
+    display: flex;
+    /* justify-content: space-between; */
+    width: 87%;
+    color: rgba(2, 48, 71, 1);
+    margin-top: 30px;
+}
+.banner_button button{
+    padding: 10px 40px;
+    border: none;
+    background-color: white;
+    display: flex;
+}
+.banner_button button p{
+    margin-left: 30px;
+    color: rgba(2, 48, 71, 1);
+    font-family: 'roboto medium';
+    font-size: 24px;
+}
+.banner_button button:nth-child(2){
+    /* margin-left: 60px; */
+    padding: 10px 40px;
+    border-left: 1px solid rgba(2, 48, 71, 1);
+}
+.banner_button button:nth-child(3){
+    /* margin-left: 60px; */
+    padding: 10px 40px;
+    border-left: 1px solid rgba(2, 48, 71, 1);
+}
+#button_search{
+    background-color: rgba(2, 48, 71, 1);
+    border: 1px solid rgba(2, 48, 71, 1);
+    border-radius: 15px;
+    color: white;
+    font-family: 'roboto medium';
+    font-size: 24px;
+}
+#button_search:hover{
+    background-color: white;
+    color: rgba(2, 48, 71, 1);
+}
+
+
+
+/* about us */
+
+
+.container{
+    margin: 0px;
+    padding: 100px;
+    max-width: 1920px;
+    width: 100%;
+}
+.left_part h1{
+    font-size: 50px;
+    font-family: 'roboto bold';
+    color: rgba(2, 48, 71, 1);
+}
+.left_part h2{
+    font-size: 16px;
+    font-family: 'roboto medium';
+    color: rgba(2, 48, 71, 1);
+    padding-top: 35px;
+}
+.left_part h3{
+    font-size: 16px;
+    font-family: 'roboto regular';
+    color: rgba(2, 48, 71, 1);
+    padding-top: 40px;
+    width: 90%;
+}
+.left_part h4{
+    font-size: 16px;
+    font-family: 'roboto regular';
+    color: rgba(2, 48, 71, 1);
+    padding-top: 30px;
+    width: 90%;
+}
+.left_part button{
+    background-color: rgba(2, 48, 71, 1);
+    color: white;
+    padding: 20px 30px;
+    border-radius: 15px;
+    margin-top: 30px;
+    border: 1px solid rgba(2, 48, 71, 1);
+    font-family: 'roboto bold';
+}
+.left_part button:hover{
+    background-color: white;
+    color: rgba(2, 48, 71, 1);
+}
+
+.images img:nth-child(2){
+    margin-top: 30px;
+}
+.images img:hover{
+    transform: scale(0.9);
+    transition: ease-in-out;
+}
+#about_image img:hover{
+    transform: scale(0.9);
+    transition: ease-in-out;
+}
+.left_part{
+    margin-top: 70px;
+}
+
+
+
+/* why choose us */
+
+
+.choose_text h1{
+    font-size: 50px;
+    color: rgba(142, 202, 230, 1);
+    font-family: 'roboto bold';
+    margin-top: 60px;
+}
+.choose_text h2{
+    font-size: 16px;
+    color: rgba(142, 202, 230, 1);
+    font-family: 'roboto regular';
+    width: 85%;
+    padding-top: 40px;
+}
+.choose_text h3{
+    font-size: 16px;
+    color: rgba(142, 202, 230, 1);
+    font-family: 'roboto regular';
+    width: 85%;
+    padding-top: 30px;
+}
+.choose_text button{
+    background-color: rgba(142, 202, 230, 1);
+    color: rgba(2, 48, 71, 1);
+    padding: 20px 30px;
+    border-radius: 15px;
+    margin-top: 30px;
+    border: 1px solid rgba(142, 202, 230, 1);
+    font-family: 'roboto bold';
+}
+.choose_text button:hover{
+    background-color: rgba(2, 48, 71, 1);
+    border: 1px solid rgba(142, 202, 230, 1);
+    color: rgba(142, 202, 230, 1);
+}
+.choose{
+    background-color: rgba(2, 48, 71, 1);
+}
+
+
+/* travel destination */
+
+#watch{
+    width: 20px;
+    height: 20px;
+}
+#watch_hover{
+    width: 20px;
+    height: 20px;
+    display: none;
+}
+.destinstion_cart:hover #watch{
+    display: none;
+}
+.destinstion_cart:hover #watch_hover{
+    display: block;
+}
+#cart_message{
+    width: 20px;
+    height: 20px;
+}
+#cart_messagehover{
+    width: 20px;
+    height: 20px;
+    display: none;
+}
+.destinstion_cart:hover #cart_message{
+    display: none;
+}
+.destinstion_cart:hover #cart_messagehover{
+    display: block;
+}
+#location_icontwo{
+    width: 24px;
+    height: 23px;
+    margin-top: 7px;
+}
+#location_iconhover{
+    width: 24px;
+    height: 24px;
+    display: none;
+    margin-top: 9px;
+}
+.destinstion_cart:hover #location_iconhover{
+    display: block;
+}
+.destinstion_cart:hover #location_icontwo{
+    display: none;
+}
+.destination h1{
+    font-size: 50px;
+    color: rgba(2, 48, 71, 1);
+    font-family: 'roboto bold';
+    width: 27%;
+    margin: auto;
+}
+.destination h2{
+    font-size: 24px;
+    color: rgba(2, 48, 71, 1);
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'roboto medium';
+}
+.destination{
+    padding: 100px 100px 0px 100px;
+}
+
+.destinstion_cart{
+    box-shadow: 0px 0px 10px 0px #c1bfbf;
+    width: 400px;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 30px 25px;
+}
+.destinstion_cart:hover{
+    background-color: rgba(2, 48, 71, 1);
+    transition: cubic-bezier(0.25, 0.1, 0.09, 0.78);
+}
+
+.time_message{
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 10px 0px #c1bfbf;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+.destinstion_cart:hover .time_message{
+    background-color: rgba(2, 48, 71, 1);
+    box-shadow: none;
+    border: 1px solid rgba(142, 202, 230, 1);
+    color: rgba(142, 202, 230, 1);
+}
+
+.timing{
+    display: flex;
+}
+.timing h1{
+    margin-left: 20px;
+    font-size: 16px;
+    font-family: 'roboto medium';
+    color: rgba(2, 48, 71, 1);
+}
+.destinstion_cart:hover .timing h1{
+    color: rgba(142, 202, 230, 1);
+}
+.destinstion_cart:hover #watch{
+    color: rgba(142, 202, 230, 1);
+}
+.place_location h1{
+    font-size: 24px;
+    font-family: 'roboto bold';
+    margin-top: 30px;
+    color: rgba(2, 48, 71, 1);
+}
+.destinstion_cart:hover .place_location h1{
+    color: rgba(142, 202, 230, 1);
+}
+.location h1{
+    margin-left: 15px;
+    font-size: 18px;
+    font-family: 'roboto regular';
+    margin-top: 8px;
+}
+.destinstion_cart:hover .location h1{
+    color: rgba(142, 202, 230, 1);
+    margin-top: 10px;
+    /* margin-left: 0px; */
+}
+.location{
+    padding-top: 15px;
+    display: flex;
+}
+.dash{
+    width: 100%;
+    color: rgba(2, 48, 71, 1);
+    border: 1px solid  rgba(2, 48, 71, 1);
+    margin-top: 30px;
+}
+.destinstion_cart:hover .dash{
+    border: 1px solid rgba(142, 202, 230, 1);
+}
+.cart_text p{
+    padding-top: 20px;
+    font-size: 16px;
+    color: rgba(2, 48, 71, 1);
+    font-family: 'roboto medium';
+    width: 93%;
+}
+.destinstion_cart:hover .cart_text p{
+    color: rgba(142, 202, 230, 1);
+}
+.book_amount{
+    display: flex;
+    justify-content: space-between;
+}
+.book_amount button{
+    font-size: 14px;
+    padding: 10px 15px;
+    border: 1px solid  rgba(2, 48, 71, 1);
+    color: white;
+    border-radius: 10px;
+    background-color: rgba(2, 48, 71, 1);
+    font-family: 'roboto bold';
+}
+.destinstion_cart:hover .book_amount button{
+    background-color:  rgba(142, 202, 230, 1);
+    color: rgba(2, 48, 71, 1);
+}
+.book_amount button:hover{
+    color: rgba(2, 48, 71, 1);
+    background-color: white;
+}
+.destinstion_cart:hover .book_amount button:hover{
+    color: rgba(142, 202, 230, 1);
+    background-color: rgba(2, 48, 71, 1);
+    border: 1px solid rgba(142, 202, 230, 1);
+}
+.book_amount h2{
+    font-family: 'roboto bold';
+    font-size: 24px;
+    color: rgba(2, 48, 71, 1);
+}
+.destinstion_cart:hover .book_amount h2{
+    color: rgba(142, 202, 230, 1);
+}
+.book_amount{
+    margin-top: 30px;
+}
+
+
+/* destinatin cart swiper */
+
+
+.newSwiper{
+    padding: 70px 100px 100px 100px;
+}
+.swiper-slide{
+    /* width: 0px !important; */
+}
+
+.swiper-slide-active{
+    margin-right: 117px !important;
+}
+.swiper-slide-next{
+    margin-right: 117px !important;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 172px;
+    top: var(--swiper-pagination-top, auto);
+    left: 0;
+    width: 100%;
+}
+.swiper-pagination {
+    position: absolute;
+    bottom: 172px;
+}
+
+
+
+
+/* our services */
+
+
+.our_service h1{
+    font-size: 50px;
+    color: rgba(2, 48, 71, 1);
+    font-family: 'roboto bold';
+    width: 17%;
+    margin: auto;
+}
+.our_service h2{
+        font-size: 24px;
+    color: rgba(2, 48, 71, 1);
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'roboto medium';
+}
+
+
+#package_icon{
+    width: 25px;
+    height: 25px;
+}
+.box_icon{
+        background-color: rgba(142, 202, 230, 1);
+    width: 11%;
+    height: 60px;
+    position: relative;
+    padding: 30px;
+
+}
+.box_icon .servive_icon{
+    position: absolute;
+    /* top:15px;
+    left: 17px; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sevice_part{
+    display: flex;
+}
+.service_description h1{
+    color: rgba(2, 48, 71, 1);
+    font-size: 24px;
+    font-family: 'roboto bold';
+}
+.service_description p{
+    font-size: 16px;
+    font-family: 'roboto regular';
+    padding-top: 10px;
+    /* width: 60%; */
+}
+.service_description{
+    margin-left: 30px;
+}
+.services{
+    margin-top: 70px;
+    display: flex;
+}
+.sevices_gap{
+    margin-top: 30px;
+}
+.sevice_package{
+    padding-top: 70px;
+}
+
+#flight_icon{
+    width: 25px;
+    height: 25px;
+}
+#Reservations_icon{
+    width: 25px;
+    height: 25px;
+}
+
+#insurance_icon{
+    width: 25px;
+    height: 25px;
+}
+#visa_icon{
+    width: 25px;
+    height: 25px;
+}
+#couple_icon{
+    width: 25px;
+    height: 21px;
+}
+
+
+
+/* trending_destination */
+
+.trending_destination h1{
+    font-size: 50px;
+    color: rgba(142, 202, 230, 1);
+    font-family: 'roboto bold';
+    /* margin-top: 60px; */
+}
+.trending_destination p{
+    font-size: 16px;
+    color: rgba(142, 202, 230, 1);
+    font-family: 'roboto regular';
+    width: 85%;
+    padding-top: 40px;
+}
+.trending_destination button{
+    background-color: rgba(142, 202, 230, 1);
+    color: rgba(2, 48, 71, 1);
+    padding: 20px 30px;
+    border-radius: 15px;
+    margin-top: 30px;
+    border: 1px solid rgba(142, 202, 230, 1);
+    font-family: 'roboto bold';
+}
+.trending_destination button:hover{
+    background-color: rgba(2, 48, 71, 1);
+    border: 1px solid rgba(142, 202, 230, 1);
+    color: rgba(142, 202, 230, 1);
+}
+.image_gap{
+    margin-top: 20px;
+}
+.trending{
+    width: 100%;
+    background-color: rgba(2, 48, 71, 1);
+}
+.trending_destination{
+    margin-top: 200px;
+}
+
+
+/* feedback */
+
+
+#feedback_icon{
+    width: 25px;
+    height: 25px;
+}
+.feedback_cart{
+    background-color: rgba(142, 202, 230, 1);
+    padding: 20px;
+    border: 1px solid rgba(142, 202, 230, 1);
+    border-radius: 15px;
+    width: 380px;
+    height: 280px;
+}
+.icon{
+    background-color: rgba(2, 48, 71, 1);
+    border: 1px solid rgba(2, 48, 71, 1);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin: 0 auto;
+}
+.icon svg{
+    position: absolute;
+    top: 11px;
+    left: 14px;
+}
+.feedback_cart p{
+    padding-top: 20px;
+    font-family: 'roboto regular';
+    text-align: center;
+}
+.feedback_cart h1{
+    /* margin: 0 auto; */
+    font-size: 22px;
+    font-family: 'roboto bold';
+    text-align: center;
+    padding-top: 15px;
+}
+.slide-right-active{
+    margin-right: 100px !important;
+}
+.feedbackSwiper{
+    padding: 70px 100px 100px 100px;
+}
+.feedback_section h1{
+    font-size: 50px;
+    color: rgba(2, 48, 71, 1);
+    text-align: center;
+    padding: 100px 100px 0px 100px;
+    font-family: 'roboto bold';
+}
+.cart_height{
+    height: 350px;
+}
+.pegination_icon{
+    position: absolute;
+    bottom: 105px !important;
+}
+
+
+/* footer */
+
+#facebook_icon{
+    width: 25px;
+    height: 25px;
+}
+#instagram_icon{
+    width: 25px;
+    height: 25px;
+}
+#whatsapp_icon{
+    width: 25px;
+    height: 25px;
+}
+.facebook{
+    width: 60px;
+    height: 60px;
+    background-color: rgba(142, 202, 230, 1);
+    border: 1px solid rgba(142, 202, 230, 1);
+    border-radius: 15px;
+    position: relative;
+    margin-left: 30px;
+}
+.facebook svg{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.social_media{
+    display: flex;
+    margin-top: 30px;
+}
+.social_media .facebook:nth-child(1){
+    margin-left: 0px;
+}
+.footer_left p{
+    width: 65%;
+    padding-top: 20px;
+    color: rgba(142, 202, 230, 1);
+    font-family: 'roboto regular';
+}
+.footer_left h1{
+    color: rgba(142, 202, 230, 1);
+}
+#telephone_icon{
+    width: 25px;
+    height: 25px;
+}
+#message_icon{
+    width: 29px;
+    height: 25px;
+}
+#address_icon{
+    width: 22px;
+    height: 25px;
+}
+.footer_background{
+    background-color: rgba(2, 48, 71, 1);
+    padding: 100px;
+    width: 100%;
+}
+.links h1{
+    color: rgba(142, 202, 230, 1);
+    font-family: 'roboto bold';
+}
+.links ul{
+    list-style: none;
+    padding: 0px;
+}
+.links ul li{
+    color: rgba(142, 202, 230, 1);
+    font-family: 'roboto regular';
+    margin-top: 10px;
+}
+.contact_telephone{
+    display: flex;
+    margin-top:30px;
+}
+.contact_telephone h2{
+    font-size: 16px;
+    margin-left: 24px;
+    color: rgba(142, 202, 230, 1);
+}
+.contact_message{
+    display: flex;
+    margin-top:30px;
+}
+.contact_message h2{
+    font-size: 16px;
+    margin-left: 24px;
+    color: rgba(142, 202, 230, 1);
+}
+.contact_address{
+    display: flex;
+    margin-top: 30px;
+}
+.contact_address h2{
+    font-size: 16px;
+    margin-left: 24px;
+    color: rgba(142, 202, 230, 1);
+}
+
+
+
+
+
+/* responsive */
+
+
+@media screen  and (min-width:1025px) and (max-width:1366px){
+    
+}
+@media screen  and (min-width:769px) and (max-width:1024px){
+
+
+        /* navbar one */
+
+    .nav {
+        padding: 10px 20px;
+    }
+    .logo h1 {
+        font-size: 20px;
+        display: none;
+    }
+    .time h1 {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    .left_border {
+        margin-left: 10px;
+    }
+
+    .contact{
+        margin-left: 10px;
+    }
+    .contact h1 {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    .email {
+        margin-left: 10px;
+    }
+    .email h1 {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    #watch_icon {
+        width: 16px;
+        height: 14px;
+    }
+    #call_icon {
+        width: 13px;
+        height: 13px;
+    }
+    #emailicon {
+        width: 17px;
+        height: 12px;
+    }
+    .left_border {
+        height: 20px;
+    }
+    .time {
+        padding-top: 4px;
+    }
+    .contact {
+        padding-top: 4px;
+    }
+    .email {
+        padding-top: 4px;
+    }
+
+
+
+      /* navbar two */
+
+    .buttons{
+        display: none;
+    }
+    .navbar{
+        padding: 10px 20px;
+    }
+    .navbar-toggler{
+        background-color: rgba(142, 202, 230, 1);
+    }
+    .navbar-brand{
+        display: block;
+        color: rgba(142, 202, 230, 1);
+        font-size: 26px;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .navbar-toggler:hover{
+        background-color: white !important;
+    }
+
+
+
+     /* swiper */
+
+    .text h1 {
+        font-size: 24px;
+    }
+    .text h2 {
+        font-size: 35px;
+        width: 36%;
+    }
+    .text {
+        position: absolute;
+        top: 100px;
+        left: 100px;
+    }
+    .banner_button{
+        padding: 10px 20px;
+        margin-top: 10px;
+        width: 90%;
+    }
+    .banner_button button {
+        padding: 4px 15px;
+    }
+    #search_icon {
+        width: 17px;
+        height: 22px;
+        margin-top: 3px;
+    }
+    .banner_button button p {
+        margin-left: 10px;
+        font-size: 18px;
+    }
+    .banner_button button:nth-child(2) {
+        padding: 4px 15px;
+        height: 26px;
+    }
+    #location_icon {
+        width: 18px;
+        height: 17px;
+        margin-top: 5px;
+    }
+    .banner_button button:nth-child(3){
+        padding: 4px 15px;
+        height: 26px;
+    }
+    #typologies_icon {
+        width: 16px;
+        height: 20px;
+        margin-top: 3px;
+    }
+    #button_search {
+        font-size: 16px;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+    .overlay{
+        height: 453px;
+    }
+    .swiper-section{
+        height: 453px !important;
+    }
+    .swiper-slide{
+        height: 453px;
+        width: 100%;
+    }
+    /* .mySwiper img{
+        height: 453px !important;
+        width: 100% !important;
+    }
+    #responsive_swiper:active{
+        width: 100% !important;
+    } */
+     /* .swiper-slides{
+        width: 100% !important;
+     } */
+      #responsive_swiper{
+        width: 100% !important;
+    }
+
+
+
+       /* about us */
+
+    
+    .container{
+        padding: 30px 20px;
+    } 
+    .left_part h1{
+        font-size: 28px;
+        text-align: center;
+    }
+    .left_part h2{
+        font-size: 18px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .left_part h3{
+        font-size: 15px;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .left_part h4{
+        font-size: 15px;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .left_part{
+        margin-top: 0px;
+    }
+    .left_part button {
+        padding: 10px 40px;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    .images img{
+        width: 434px;
+        height: 210px;
+    }
+    #about_image img{
+        width: 306px;
+        height: 435px;
+    }
+    .images img:nth-child(2) {
+        margin-top: 15px;
+    }
+    .image_space{
+        margin-top: 30px;
+    }
+
+
+       /* why choose us */
+
+    .choose_image img{
+        width: 60%;
+        height: 250px;
+    }
+    .choose_image{
+        display: flex;
+        justify-content: center;
+    }
+    .choose_text h1{
+        font-size: 28px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .choose_text h2{
+        font-size: 15px;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .choose_text h3{
+        font-size: 14px;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .choose_text button{
+        padding: 10px 40px;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+
+      /* travel destination */
+
+    .destination {
+        padding: 30px 20px 0px 20px;
+    }
+    .destination h1{
+        font-size: 28px;
+        width: 34%;
+    }
+    .destination h2{
+        font-size: 15px;
+    }
+    .newSwiper{
+        padding: 0px;
+        margin: 20px;
+        height: 670px;
+    }
+    .swiper-slide-active{
+        margin-right: 50px !important;
+        width: 46% !important;
+    }
+    .swiper-slide-next{
+        margin-right: 100px !important;
+        width: 100% !important;
+    }
+    #swiper-wrapper-4827f270c8aa03f8{
+        height: 660px;
+    }
+    swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+        bottom: 10px;
+        top: var(--swiper-pagination-top, auto);
+        left: 0;
+        width: 100%;
+    }
+
+
+
+    .destinstion_cart{
+        width: 350px;
+    }
+    .cart_image img{
+        width: 100%;
+    }
+    .cart_display{
+        /* display: none; */
+    }
+
+
+      /* our services */
+
+    .our_service h1{
+        font-size: 28px;
+        margin: 0 auto;
+        width: 20%;
+    }
+    .our_service h2 {
+        font-size: 15px;
+    }
+    .sevice_package{
+        padding: 0px 20px 30px 20px;
+    }
+    .services {
+        margin-top: 30px;
+    }
+    .box_icon {
+        background-color: rgba(142, 202, 230, 1);
+        width: 0%;
+        height: 40px;
+        position: relative;
+        padding: 0px 20px;
+    }   
+    #package_icon {
+        width: 20px;
+        height: 20px;
+    }
+    #flight_icon {
+        width: 20px;
+        height: 20px;
+    }
+    #insurance_icon {
+        width: 20px;
+        height: 20px;
+    }
+    #visa_icon {
+        width: 20px;
+        height: 20px;
+    }
+    #couple_icon {
+        width: 20px;
+        height: 16px;
+    }
+    .service_description h1{
+        font-size: 18px;
+    }
+    .service_description p {
+        font-size: 12px;
+        padding-top: 5px;
+    }
+    .service_image img{
+        width: 235px;
+        height: 235px;
+    }
+    .service_image{
+        width: 33.3333%;
+        margin: 0px;
+    }
+    .service_description {
+        margin-left: 10px;
+    }
+    .service_image{
+        margin: auto;
+    }
+
+
+
+       /* trending destination */
+
+    .trending_destination {
+        margin-top: 0px;
+    }
+    .trending_destination h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+    .trending_destination p {
+        width: 100%;
+        font-size: 15px;
+        padding-top: 20px;
+    }
+    .trending_destination button{
+        padding: 10px 40px;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    .destination_image img{
+        width: 180px;
+        height: 250px;
+        margin-top: 30px;
+    }
+    .destination_image img:nth-child(2){
+        /* display: none; */
+        margin-left: 15px;
+    }
+    .destination_image{
+        padding-right: 0px;
+    }
+    .image_gap {
+        margin-top: 0px;
+    }
+
+
+       /* feedback section */
+
+    .feedback_section h1 {
+        padding: 20px;
+        font-size: 24px;
+    }
+    .feedbackSwiper {
+        margin: 20px;
+        padding: 0px;
+        height: 350px;
+    }
+    .slide-right-active {
+        /* margin-right: 20px !important; */
+        width: 100%;
+    }
+    .cart_height{
+        margin-right: 50px !important;
+        width: 100%;
+    }
+    .slide-right-active {
+        margin-right: 25px !important;
+        width: 50% !important;
+    }
+    .feedback_cart{
+        /* width: 50%;
+        padding: 10px 20px; */
+    }
+    #swiper-wrapper-f71101b38a9487f410{
+        height: 330px;
+    }
+    /* #feedback_pegination{
+        top: 290px;
+        left: 0;
+        width: 100%;
+    }
+    .feedback_responsive{
+        height: 320px;
+    } */
+     .feedback_cart{
+        width: 350px;
+     }
+     swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+        /* bottom: 76px; */
+        top: 300px;
+        left: 0;
+        width: 100%;
+    }
+
+
+}
+@media screen  and (min-width:540px) and (max-width:768px){
+     
+}
+@media screen  and (min-width:320px) and (max-width:539px){
+
+    /* navbar one */
+
+    .nav {
+        padding: 10px 20px;
+    }
+    .logo h1 {
+        font-size: 20px;
+        display: none;
+    }
+    .time h1 {
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    .left_border {
+        margin-left: 10px;
+    }
+
+    .contact{
+        margin-left: 10px;
+    }
+    .contact h1 {
+        margin-left: 10px;
+        font-size: 10px;
+    }
+
+    .email {
+        margin-left: 10px;
+    }
+    .email h1 {
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    #watch_icon {
+        width: 13px;
+        height: 12px;
+    }
+    #call_icon {
+        width: 13px;
+        height: 13px;
+    }
+    #emailicon {
+        width: 15px;
+        height: 10px;
+    }
+    .left_border {
+        height: 20px;
+    }
+    .time {
+        padding-top: 4px;
+    }
+    .contact {
+        padding-top: 4px;
+    }
+    .email {
+        padding-top: 4px;
+    }
+
+
+    /* navbar two */
+
+    .buttons{
+        display: none;
+    }
+    .navbar{
+        padding: 10px 20px;
+    }
+    .navbar-toggler{
+        background-color: rgba(142, 202, 230, 1);
+    }
+    .navbar-brand{
+        display: block;
+        color: rgba(142, 202, 230, 1);
+        font-size: 24px;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .navbar-toggler:hover{
+        background-color: white !important;
+    }
+
+
+    /* swiper */
+
+    .text h1 {
+        font-size: 18px;
+    }
+    .text h2 {
+        font-size: 24px;
+        width: 36%;
+    }
+    .text {
+        position: absolute;
+        top: 25px;
+        left: 30px;
+    }
+    .banner_button{
+        padding: 10px;
+        margin-top: 10px;
+        width: 90%;
+    }
+    .banner_button button {
+        padding: 4px 5px;
+    }
+    #search_icon {
+        width: 12px;
+        height: 16px;
+        margin-top: 3px;
+    }
+    .banner_button button p {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    .banner_button button:nth-child(2) {
+        padding: 4px 5px;
+        height: 26px;
+    }
+    #location_icon {
+        width: 12px;
+        height: 16px;
+        margin-top: 3px;
+    }
+    .banner_button button:nth-child(3){
+        padding: 4px 5px;
+        height: 26px;
+    }
+    #typologies_icon {
+        width: 12px;
+        height: 16px;
+        margin-top: 3px;
+    }
+    #button_search {
+        font-size: 14px;
+    }
+    .overlay{
+        height: 245px;
+    }
+    .swiper-section{
+        height: 245px !important;
+    }
+    .swiper-slide{
+        height: 245px;
+    }
+
+
+    /* about us */
+
+    
+    .container{
+        padding: 30px 20px;
+    } 
+    .left_part h1{
+        font-size: 24px;
+        text-align: center;
+    }
+    .left_part h2{
+        font-size: 15px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .left_part h3{
+        font-size: 14px;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .left_part h4{
+        font-size: 14px;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .left_part{
+        margin-top: 0px;
+    }
+    .left_part button {
+        padding: 10px 40px;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    .images img{
+        width: 220px;
+        height: 140px;
+    }
+    #about_image img{
+        width: 149px;
+        height: 297px;
+    }
+    .images img:nth-child(2) {
+        margin-top: 15px;
+    }
+    .image_space{
+        margin-top: 30px;
+    }
+
+
+    /* why choose us */
+
+    .choose_image img{
+        width: 100%;
+        height: 250px;
+    }
+    .choose_text h1{
+        font-size: 24px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .choose_text h2{
+        font-size: 14px;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .choose_text h3{
+        font-size: 14px;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .choose_text button{
+        padding: 10px 40px;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+
+    /* travel destination */
+
+    .destination {
+        padding: 30px 20px 0px 20px;
+    }
+    .destination h1{
+        font-size: 24px;
+        width: 56%;
+    }
+    .destination h2{
+        font-size: 14px;
+    }
+    .newSwiper{
+        padding: 0px;
+        margin: 20px;
+        height: 670px;
+    }
+    .swiper-slide-active{
+        margin-right: 100px !important;
+        width: 100% !important;
+    }
+    .swiper-slide-next{
+        margin-right: 100px !important;
+        width: 100% !important;
+    }
+    #swiper-wrapper-4827f270c8aa03f8{
+        height: 660px;
+    }
+    swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+        bottom: 10px;
+        top: var(--swiper-pagination-top, auto);
+        left: 0;
+        width: 100%;
+    }
+
+
+
+    .destinstion_cart{
+        width: 390px;
+        box-shadow: none;
+        border: 1px solid rgb(180, 180, 180);
+    }
+    .cart_image img{
+        width: 100%;
+    }
+    .cart_display{
+        /* display: none; */
+    }
+
+
+
+    /* our services */
+
+    .our_service h1{
+        font-size: 24px;
+        margin: 0 auto;
+        width: 33%;
+    }
+    .our_service h2 {
+        font-size: 15px;
+    }
+    .sevice_package{
+        padding: 0px 20px 30px 20px;
+    }
+    .services {
+        margin-top: 30px;
+    }
+    .box_icon {
+        background-color: rgba(142, 202, 230, 1);
+        width: 0%;
+        height: 40px;
+        position: relative;
+        padding: 0px 20px;
+    }   
+    #package_icon {
+        width: 20px;
+        height: 20px;
+    }
+    #flight_icon {
+        width: 20px;
+        height: 20px;
+    }
+    #insurance_icon {
+        width: 20px;
+        height: 20px;
+    }
+    #visa_icon {
+        width: 20px;
+        height: 20px;
+    }
+    #couple_icon {
+        width: 20px;
+        height: 16px;
+    }
+    .service_description h1{
+        font-size: 20px;
+    }
+    .service_description p {
+        font-size: 14px;
+    }
+    .service_image img{
+        width: 300px;
+        height: 300px;
+    }
+    .service_image{
+        width: 80%;
+        margin: 30px auto 0px auto;
+    }
+
+
+    /* trending destination */
+
+    .trending_destination {
+        margin-top: 0px;
+    }
+    .trending_destination h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .trending_destination p {
+        width: 100%;
+        font-size: 14px;
+        padding-top: 20px;
+    }
+    .trending_destination button{
+        padding: 10px 40px;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    .destination_image img{
+        width: 180px;
+        height: 250px;
+        margin-top: 30px;
+    }
+    .destination_image img:nth-child(2){
+        display: none;
+    }
+    .image_gap {
+        margin-top: 0px;
+    }
+
+
+    /* feedback section */
+
+    .feedback_section h1 {
+        padding: 20px;
+        font-size: 24px;
+    }
+    .feedbackSwiper {
+        margin: 20px;
+        padding: 0px;
+    }
+    .slide-right-active {
+        /* margin-right: 20px !important; */
+        width: 100%;
+    }
+    .slide-right-next{
+        /* margin-right: 20px !important; */
+        width: 100%;
+    }
+    .slide-right-active {
+        margin-right: 0px !important;
+    }
+    .feedback_cart{
+        width: 100%;
+        padding: 10px 20p
+    }
+    #swiper-wrapper-f71101b38a9487f410{
+        height: 330px;
+    }
+    #feedback_pegination{
+        top: 290px;
+        left: 0;
+        width: 100%;
+    }
+    .feedback_responsive{
+        height: 320px;
+    }
+
+
+    /* footer */
+
+    .footer_left p {
+        width: 100%;
+        font-size: 14px;
+    }
+    .facebook {
+        width: 40px;
+        height: 40px;
+    }
+    #facebook_icon{
+        width: 20px;
+        height: 20px;
+    }
+    #instagram_icon{
+        width: 20px;
+        height: 20px;
+    }
+    #whatsapp_icon{
+        width: 20px;
+        height: 20px;
+    }
+    .facebook svg {
+        position: absolute;
+        top: 10px;
+        left: 9px;
+    }
+    .facebook {
+        margin-left: 20px;
+    }
+    .social_media {
+        display: flex;
+        justify-content: center;
+    }
+    .links{
+        margin-top: 30px;
+    }
+}

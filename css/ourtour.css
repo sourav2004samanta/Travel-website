@@ -1,0 +1,1218 @@
+@font-face {
+    font-family: 'roboto regular';
+    src: url(../Fonts/static/Roboto-Regular.ttf)
+}
+@font-face {
+    font-family: 'roboto bold';
+    src: url(../Fonts/static/Roboto-Bold.ttf)
+}
+@font-face {
+    font-family: 'roboto bold-black';
+    src: url(../Fonts/static/Roboto-Black.ttf)
+}
+@font-face {
+    font-family: 'roboto semi-bold';
+    src: url(../Fonts/static/Roboto-SemiBold.ttf)
+}
+@font-face {
+    font-family: 'roboto light';
+    src: url(../Fonts/static/Roboto-Light.ttf)
+}
+@font-face {
+    font-family: 'roboto extra-bold';
+    src: url(../Fonts/static/Roboto-ExtraBold.ttf)
+}
+@font-face {
+    font-family: 'roboto medium';
+    src: url(../Fonts/static/Roboto-Medium.ttf)
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto regular';
+    /* background-color: black; */
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+.logo h1{
+    color: rgba(2, 48, 71, 1);
+    font-size: 36px;
+}
+#watch_icon{
+    width: 20px;
+    height: 20px;
+}
+#call_icon{
+    width: 18px;
+    height: 18px;
+}
+#emailicon{
+    width: 20px;
+    height: 16px;
+}
+.nav{
+    padding: 25px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.details{
+    display: flex;
+}
+.time{
+    display: flex;
+    padding-top: 10px;
+}
+.time h1{
+    font-size: 16px;
+    margin-left: 30px;
+    font-family: 'roboto light';
+}
+.left_border{
+    border-left: 1px solid rgba(2, 48, 71, 1);
+    height: 35px;
+    margin-left: 40px;
+}
+.contact{
+    display: flex;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+.contact h1{
+    font-size: 16px;
+    margin-left: 30px;
+    font-family: 'roboto light';
+}
+.email{
+    display: flex;
+    padding-top: 10px;
+    margin-left: 30px;
+}
+.email h1{
+    font-size: 16px;
+    margin-left: 30px;
+    font-family: 'roboto light';
+}
+
+
+/* navbar two */
+
+.navbar{
+    padding: 15px 200px;
+    background-color: rgba(2, 48, 71, 1) !important;
+}
+.navbar-nav a{
+    color: rgba(142, 202, 230, 1) !important;
+}
+.buttons button{
+    padding: 15px 30px;
+    border: 2px solid rgba(142, 202, 230, 1);
+    border-radius: 10px;
+    background-color: rgba(2, 48, 71, 1);
+    color: rgba(142, 202, 230, 1);
+    font-family: 'roboto regular';
+}
+.buttons button:nth-child(2){
+    margin-left: 30px;
+}
+.buttons button:hover{
+    background-color: rgba(142, 202, 230, 1);
+    color: rgba(2, 48, 71, 1);
+}
+.container-fluid{
+    padding: 0px;
+}
+.nav-link{
+    font-family: 'roboto regular';
+}
+.nav-link:hover{
+    font-family: 'roboto extra-bold';
+}
+.navbar-brand{
+    display: none;
+}
+
+
+/* about banner */
+
+.about_image{
+    position: relative;
+}
+.image_overlay{
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0px;
+    opacity: 70%;
+}
+#about_arrow{
+    width: 9px;
+    height: 16px;
+}
+.about_text h1{
+    font-size: 70px;
+    color: rgba(142, 202, 230, 1);
+    font-family: 'roboto extra-bold';
+    width: 90%;
+    margin: 0 auto;
+}
+.about_text ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+.about_text ul li{
+    display: flex;
+    font-size: 40px;
+    color: white;
+    margin-left: 20px;
+}
+.about_text ul li:nth-child(1){
+    margin-left: 0px;
+}
+.about_text ul li svg{
+    display: none;
+}
+.about{
+    position: relative;
+}
+.about_text{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+
+
+/* popular destination */
+
+#star_icon{
+    width: 70px;
+    height: 10px;
+}
+.container{
+    margin: 0px;
+    max-width: 100% !important;
+}
+.image_one{
+    background-image: url(../images/image\ 23.png);
+    width: 260px;
+    height: 250px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 260px 250px;
+}
+.image_one .button{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+.image_one button{
+    padding: 5px 10px;
+    font-family: 'roboto semi-bold';
+    background-color: rgba(142, 202, 230, 1);
+    border: 1px solid rgba(142, 202, 230, 1);
+    border-radius: 3px;
+    color: rgba(2, 48, 71, 1);
+}
+.image_one .place_star{
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+}
+.place_star h1{
+    color: white;
+    font-family: 'roboto semi-bold';
+    font-size: 20px;
+}
+.black_overlay{
+    width: 260px;
+    height: 250px;
+    background-color: black;
+    opacity: 70%;
+    border-radius: 15px;
+}
+
+.image_two{
+    background-image: url(../images/image\ 26.png);
+    width: 260px;
+    height: 150px;
+    position: relative;
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    background-size: 260px 150px;
+}
+.image_two .button{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+.image_two button{
+    padding: 5px 10px;
+    font-family: 'roboto semi-bold';
+    background-color: rgba(142, 202, 230, 1);
+    border: 1px solid rgba(142, 202, 230, 1);
+    border-radius: 3px;
+    color: rgba(2, 48, 71, 1);
+}
+.image_two .place_star{
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+}
+.black_overlaytwo{
+    width: 260px;
+    height: 150px;
+    background-color: black;
+    opacity: 70%;
+    border-radius: 15px;
+}
+
+.image_three{
+    background-image: url(../images/image\ 25.png);
+    width: 260px;
+    height: 430px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 260px 430px;
+}
+.overlay_third{
+    width: 260px;
+    height: 430px;
+    background-color: black;
+    opacity: 70%;
+    border-radius: 15px;
+}
+.image_three .button{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+.image_three button{
+    padding: 5px 10px;
+    font-family: 'roboto semi-bold';
+    background-color: rgba(142, 202, 230, 1);
+    border: 1px solid rgba(142, 202, 230, 1);
+    border-radius: 3px;
+    color: rgba(2, 48, 71, 1);
+}
+.image_three .place_star{
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+}
+
+.image_four{
+    background-image: url(../images/image\ 22.png);
+    width: 260px;
+    height: 250px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 260px 250px;
+}
+.image_four .button{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+.image_four button{
+    padding: 5px 10px;
+    font-family: 'roboto semi-bold';
+    background-color: rgba(142, 202, 230, 1);
+    border: 1px solid rgba(142, 202, 230, 1);
+    border-radius: 3px;
+    color: rgba(2, 48, 71, 1);
+}
+.image_four .place_star{
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+}
+
+.image_five{
+    background-image: url(../images/image\ 24.png);
+    width: 260px;
+    height: 150px;
+    position: relative;
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    background-size: 260px 150px;
+}
+.image_five .button{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+.image_five button{
+    padding: 5px 10px;
+    font-family: 'roboto semi-bold';
+    background-color: rgba(142, 202, 230, 1);
+    border: 1px solid rgba(142, 202, 230, 1);
+    border-radius: 3px;
+    color: rgba(2, 48, 71, 1);
+}
+.image_five .place_star{
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+}
+
+
+
+.popular_destination{
+    padding: 100px;
+}
+.destination_text p{
+    width: 86%;
+    font-size: 16px;
+    font-family: 'roboto regular';
+    color: rgba(2, 48, 71, 1);
+    padding-top: 20px;
+}
+.destination_text h2{
+    font-size: 50px;
+    font-family: 'roboto bold';
+    color: rgba(2, 48, 71, 1);
+    padding-top: 20px;
+}
+.destination_text h1{
+    font-size: 20px;
+    font-family: 'roboto medium';
+    color: rgba(2, 48, 71, 1);
+}
+
+
+/* best package */
+
+#location_iconhover{
+    width: 24px;
+    height: 24px;
+}
+#watch_hover{
+    width: 20px;
+    height: 20px;
+}
+.headline h1{
+    font-size: 50px;
+    font-family: 'roboto bold';
+    color: rgba(2, 48, 71, 1);
+    text-align: center;
+}
+.tour_cart{
+    margin: 50px 100px 100px 100px;
+}
+.place_cart{
+    width: 100% !important;
+    height: auto;
+    background-color: rgba(2, 48, 71, 1);
+    border: 1px solid rgba(2, 48, 71, 1);
+    border-radius: 10px;
+}
+#image_cart{
+    padding: 30px 0px 30px 30px;
+}
+#text_cart{
+    padding: 55px 30px 30px 0px;
+}
+.place_amount{
+    display: flex;
+    justify-content: space-between;
+}
+.place_amount h1{
+    font-size: 24px;
+    font-family: 'roboto bold';
+    color: rgba(142, 202, 230, 1);
+}
+.place_location h1{
+    font-size: 18px;
+    font-family: 'roboto regular';
+    color: rgba(142, 202, 230, 1);
+    margin-left: 15px;
+}
+.place_location{
+    display: flex;
+    margin-top: 15px;
+}
+.dash{
+    border: 1px solid rgba(142, 202, 230, 1);
+    width: 100%;
+    margin-top: 20px;
+}
+.description p{
+    font-size: 14px;
+    color: rgba(142, 202, 230, 1);
+    font-family: 'roboto medium';
+    padding-top: 20px;
+}
+.timing_booking{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.timing{
+    display: flex;
+    padding-top: 5px;
+}
+.timing h1{
+    font-size: 16px;
+    color: rgba(142, 202, 230, 1);
+    font-family: 'roboto medium';
+    margin-left: 20px;
+}
+.book_button button{
+    background-color: rgba(142, 202, 230, 1);
+    color: rgba(2, 48, 71, 1);
+    padding: 10px;
+    border: 1px solid rgba(142, 202, 230, 1);
+    border-radius: 10px;
+    font-family: 'roboto bold';
+}
+.cart_space{
+    margin-top: 30px;
+}
+
+.place_cart:hover{
+    background-color: rgba(142, 202, 230, 1);
+    border: 1px solid rgba(142, 202, 230, 1);
+}
+.place_cart:hover .place_amount h1{
+    color: rgba(2, 48, 71, 1);
+}
+.place_cart:hover .place_location h1{
+    color: rgba(2, 48, 71, 1);
+}
+.place_cart:hover .dash{
+    border: 1px solid rgba(2, 48, 71, 1);
+}
+.place_cart:hover .description p{
+    color: rgba(2, 48, 71, 1);
+}
+.place_cart:hover .timing h1{
+    color: rgba(2, 48, 71, 1);
+}
+.place_cart:hover .book_button button{
+    border: 1px solid rgba(2, 48, 71, 1);
+}
+#location_icontwo{
+    width: 24px;
+    height: 24px;
+    display: none;
+}
+.place_cart:hover #location_icontwo{
+    display: block;
+}
+.place_cart:hover #location_iconhover{
+    display: none;
+}
+#watch{
+    width: 20px;
+    height: 20px;
+    display: none;
+}
+.place_cart:hover #watch{
+    display: block;
+}
+.place_cart:hover #watch_hover{
+    display: none;
+}
+
+
+/* cheap deal */
+
+.headline h2{
+    color: rgba(2, 48, 71, 1);
+    font-size: 24px;
+    padding-top: 10px;
+    text-align: center;
+}
+.deal_image{
+    background-image: url(../images/image\ 29.png);
+    width: 500px;
+    height: 500px;
+    background-size: 550px 550px;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.deal_overlay{
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    background-color: black;
+    opacity: 70%;
+}
+.button_place{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.button_place button{
+    background-color: rgba(142, 202, 230, 1);
+    padding: 10px;
+    border: 1px solid rgba(142, 202, 230, 1);
+    border-radius: 5px;
+    color: rgba(2, 48, 71, 1);
+    font-family: 'roboto semi-bold';
+}
+.place_rating h2{
+    color: white;
+    font-family: 'roboto semi-bold';
+    font-size: 20px;
+}
+.place_rating{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+.deal_imagetwo{
+    background-image: url(../images/image\ 30.png);
+    width: 500px;
+    height: 500px;
+    background-size: 550px 550px;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+}
+.deal_imagethree{
+    background-image: url(../images/image\ 32.png);
+    width: 500px;
+    height: 500px;
+    background-size: 550px 550px;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+}
+
+
+
+/* footer */
+
+#facebook_icon{
+    width: 25px;
+    height: 25px;
+}
+#instagram_icon{
+    width: 25px;
+    height: 25px;
+}
+#whatsapp_icon{
+    width: 25px;
+    height: 25px;
+}
+.facebook{
+    width: 60px;
+    height: 60px;
+    background-color: rgba(142, 202, 230, 1);
+    border: 1px solid rgba(142, 202, 230, 1);
+    border-radius: 15px;
+    position: relative;
+    margin-left: 30px;
+}
+.facebook svg{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.social_media{
+    display: flex;
+    margin-top: 30px;
+}
+.social_media .facebook:nth-child(1){
+    margin-left: 0px;
+}
+.footer_left p{
+    width: 65%;
+    padding-top: 20px;
+    color: rgba(142, 202, 230, 1);
+    font-family: 'roboto regular';
+}
+.footer_left h1{
+    color: rgba(142, 202, 230, 1);
+}
+#telephone_icon{
+    width: 25px;
+    height: 25px;
+}
+#message_icon{
+    width: 29px;
+    height: 25px;
+}
+#address_icon{
+    width: 22px;
+    height: 25px;
+}
+.footer_background{
+    background-color: rgba(2, 48, 71, 1);
+    padding: 100px;
+    width: 100%;
+}
+.links h1{
+    color: rgba(142, 202, 230, 1);
+    font-family: 'roboto bold';
+}
+.links ul{
+    list-style: none;
+    padding: 0px;
+}
+.links ul li{
+    color: rgba(142, 202, 230, 1);
+    font-family: 'roboto regular';
+    margin-top: 10px;
+}
+.contact_telephone{
+    display: flex;
+    margin-top:30px;
+}
+.contact_telephone h2{
+    font-size: 16px;
+    margin-left: 24px;
+    color: rgba(142, 202, 230, 1);
+}
+.contact_message{
+    display: flex;
+    margin-top:30px;
+}
+.contact_message h2{
+    font-size: 16px;
+    margin-left: 24px;
+    color: rgba(142, 202, 230, 1);
+}
+.contact_address{
+    display: flex;
+    margin-top: 30px;
+}
+.contact_address h2{
+    font-size: 16px;
+    margin-left: 24px;
+    color: rgba(142, 202, 230, 1);
+}
+
+
+
+
+/* responsive */
+
+
+@media screen  and (min-width:1025px) and (max-width:1366px){
+    
+}
+@media screen  and (min-width:769px) and (max-width:1024px){
+
+
+        /* navbar one */
+
+    .nav {
+        padding: 10px 20px;
+    }
+    .logo h1 {
+        font-size: 20px;
+        display: none;
+    }
+    .time h1 {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    .left_border {
+        margin-left: 10px;
+    }
+
+    .contact{
+        margin-left: 10px;
+    }
+    .contact h1 {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    .email {
+        margin-left: 10px;
+    }
+    .email h1 {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    #watch_icon {
+        width: 16px;
+        height: 14px;
+    }
+    #call_icon {
+        width: 13px;
+        height: 13px;
+    }
+    #emailicon {
+        width: 17px;
+        height: 12px;
+    }
+    .left_border {
+        height: 20px;
+    }
+    .time {
+        padding-top: 4px;
+    }
+    .contact {
+        padding-top: 4px;
+    }
+    .email {
+        padding-top: 4px;
+    }
+
+
+
+      /* navbar two */
+
+    .buttons{
+        display: none;
+    }
+    .navbar{
+        padding: 10px 20px;
+    }
+    .navbar-toggler{
+        background-color: rgba(142, 202, 230, 1);
+    }
+    .navbar-brand{
+        display: block;
+        color: rgba(142, 202, 230, 1);
+        font-size: 26px;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .navbar-toggler:hover{
+        background-color: white !important;
+    }
+
+
+        /* about banner */
+
+
+    .about_image img{
+        width: 100%;
+        height: 250px;
+    }
+    .image_overlay {
+        height: 250px;
+    }
+    .about_text h1 {
+        font-size: 40px;
+        width: 98%;
+    }
+    .about_text ul li {
+        font-size: 20px;
+    }
+    .about_text {
+        position: absolute;
+        top: 30%;
+        left: 37%;
+    }
+
+
+    /* popular destination */
+
+    .popular_destination{
+        padding: 30px 20px 75px 20px;
+    }
+    .destination_text h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .destination_text h1 {
+        font-size: 15px;
+        text-align: center;
+    }
+    .destination_text p {
+        width: 100%;
+        font-size: 14px;
+    }
+    .image_one {
+        width: 230px;
+        height: 250px;
+        background-size: 230px 250px;
+        border-radius: 20px;
+    }
+    .black_overlay {
+        width: 230px;
+        height: 250px;
+        border-radius: 20px;
+    }
+    .black_overlaytwo {
+        width: 230px;
+        height: 150px;
+        border-radius: 20px;
+    }
+    .image_two {
+        width: 230px;
+        height: 150px;
+        background-size: 230px 150px;
+        border-radius: 20px;
+    }
+    .overlay_third{
+        width: 230px;
+    }
+    .image_three {
+        width: 230px;
+        background-size: 230px 430px;
+    }
+    .image_four{
+        width: 230px;
+        height: 250px;
+        background-size: 230px 250px;
+        border-radius: 20px;
+    }
+    .image_five{
+        width: 230px;
+        height: 150px;
+        background-size: 230px 150px;
+        border-radius: 20px;
+    }
+    #image_distance{
+        margin-top: 30px;
+    }
+
+
+    /* best package */
+
+    .headline h1 {
+        font-size: 24px;
+    }
+    .tour_cart{
+        margin: 20px;
+    }
+    #image_cart img{
+        width: 330px;
+        height: 200px;
+    }
+    #image_cart {
+        padding: 20px 0px 30px 20px;
+    }
+    .place_amount h1 {
+        font-size: 18px;
+    }
+    .place_location h1 {
+        font-size: 16px;
+    }
+    .description p {
+        font-size: 12px;
+        width: 100%;
+        padding-top: 10px;
+    }
+    #text_cart {
+        padding: 20px 20px 20px 0px;
+    }
+    .place_location {
+        margin-top: 10px;
+    }
+    .dash {
+        margin-top: 10px;
+    }
+    .timing_booking{
+        margin-top: 10px;
+    }
+    .timing h1 {
+        font-size: 15px;
+    }
+    .book_button button{
+        padding: 5px;
+        font-size: 12px;
+    }
+
+
+    /* cheap deal */
+
+
+    .headline h2{
+        font-size: 15px;
+    }
+    .deal_overlay {
+        width: 220px;
+        height: 300px;
+    }
+    .deal_image{
+        width: 220px;
+        height: 300px;
+        background-size: 220px 300px;
+    }
+
+
+    /* footer */
+
+    .container{
+        padding: 30px 20px;
+    }
+    .footer_pad{
+        padding: 0px 10px !important;
+    }
+
+}
+@media screen  and (min-width:540px) and (max-width:768px){
+     
+}
+@media screen  and (min-width:320px) and (max-width:539px){
+
+    /* navbar one */
+
+    .nav {
+        padding: 10px 20px;
+    }
+    .logo h1 {
+        font-size: 20px;
+        display: none;
+    }
+    .time h1 {
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    .left_border {
+        margin-left: 10px;
+    }
+
+    .contact{
+        margin-left: 10px;
+    }
+    .contact h1 {
+        margin-left: 10px;
+        font-size: 10px;
+    }
+
+    .email {
+        margin-left: 10px;
+    }
+    .email h1 {
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    #watch_icon {
+        width: 13px;
+        height: 12px;
+    }
+    #call_icon {
+        width: 13px;
+        height: 13px;
+    }
+    #emailicon {
+        width: 15px;
+        height: 10px;
+    }
+    .left_border {
+        height: 20px;
+    }
+    .time {
+        padding-top: 4px;
+    }
+    .contact {
+        padding-top: 4px;
+    }
+    .email {
+        padding-top: 4px;
+    }
+
+
+    /* navbar two */
+
+    .buttons{
+        display: none;
+    }
+    .navbar{
+        padding: 10px 20px;
+    }
+    .navbar-toggler{
+        background-color: rgba(142, 202, 230, 1);
+    }
+    .navbar-brand{
+        display: block;
+        color: rgba(142, 202, 230, 1);
+        font-size: 24px;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .navbar-toggler:hover{
+        background-color: white !important;
+    }
+
+
+
+    /* about banner */
+
+
+    .about_image img{
+        width: 100%;
+        height: 250px;
+    }
+    .image_overlay {
+        height: 250px;
+    }
+    .about_text h1 {
+        font-size: 40px;
+        width: 93%;
+    }
+    .about_text ul li {
+        font-size: 20px;
+    }
+    .about_text {
+        position: absolute;
+        top: 25%;
+        left: 25%;
+    }
+
+
+
+    /* popular destination  */
+
+    .popular_destination {
+        padding: 20px;
+    }
+    .destination_text h1 {
+        font-size: 15px;
+        text-align: center;
+    }
+    .destination_text h2 {
+        font-size: 24px;
+        padding: 10px 20px;
+        text-align: center;
+    }
+    .destination_text p {
+        width: 100%;
+        font-size: 14px;
+        padding: 0px 0px 20px 0px;
+    }
+    .image_one {
+        background-size: 170px 250px;
+        width: 170px;
+        height: 250px;
+    }
+    .black_overlay {
+        width: 170px;
+        height: 250px;
+    }
+    .image_two {
+        background-size: 170px 150px;
+        width: 170px;
+        height: 150px;
+    }
+    .black_overlaytwo{
+        width: 170px;
+        height: 150px;
+    }
+    .destination_display{
+        display: none;
+    }
+    .image_four{
+        background-size: 170px 250px;
+        width: 170px;
+        height: 250px;
+    }
+    .image_five{
+        background-size: 170px 150px;
+        width: 170px;
+        height: 150px;
+    }
+
+
+    /* best package */
+
+
+    .headline h1 {
+        font-size: 24px;
+    }
+    .tour_cart{
+        margin: 20px;
+    }
+    #image_cart{
+        padding: 20px;
+    }
+    #image_cart img{
+        width: 100%;
+        height: 200px;
+    }
+    #text_cart {
+        padding: 20px;
+    }
+    .place_cart{
+        margin: 0 auto;
+    }
+    .place_amount h1 {
+        font-size: 18px;
+    }
+    .place_location h1 {
+        font-size: 16px;
+    }
+    .description p {
+        font-size: 12px;
+    }
+    .book_button button{
+        padding: 5px;
+        font-size: 12px;
+    }
+    .headline h2 {
+        font-size: 15px;
+    }
+
+
+
+    /* cheap deal */
+
+
+    .deal_image{
+        width: 100%;
+        height: 300px;
+        background-size: 100% 300px;
+    }
+    .deal_overlay{
+        width: 100%;
+        height: 300px;
+    }
+    #deal_gap{
+        padding: 0px !important;
+    }
+    #cheap_image{
+        margin-top: 20px;
+    }
+
+
+
+          /* footer */
+
+    .footer_left p {
+        width: 100%;
+        font-size: 14px;
+    }
+    .facebook {
+        width: 40px;
+        height: 40px;
+    }
+    #facebook_icon{
+        width: 20px;
+        height: 20px;
+    }
+    #instagram_icon{
+        width: 20px;
+        height: 20px;
+    }
+    #whatsapp_icon{
+        width: 20px;
+        height: 20px;
+    }
+    .facebook svg {
+        position: absolute;
+        top: 10px;
+        left: 9px;
+    }
+    .facebook {
+        margin-left: 20px;
+    }
+    .social_media {
+        display: flex;
+        justify-content: center;
+    }
+    .links{
+        margin-top: 30px;
+    }
+    .footer_background{
+        padding: 30px 20px;
+    }
+    .footer_pad{
+        padding: 0px 10px !important;
+    }
+}
