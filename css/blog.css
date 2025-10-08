@@ -127,8 +127,15 @@ h1,h2,h3,h4,h5,h6,p{
 .nav-link{
     font-family: 'roboto regular';
 }
+.nav-link:nth-child(1){
+    /* font-family: 'roboto bold'; */
+    text-decoration: underline;
+    text-underline-offset: 5px; 
+}
 .nav-link:hover{
-    font-family: 'roboto extra-bold';
+    /* font-family: 'roboto extra-bold'; */
+    text-decoration: underline;
+    text-underline-offset: 5px;
 }
 .navbar-brand{
     display: none;

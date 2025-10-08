@@ -13,6 +13,10 @@
 
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
+    <!-- animation css -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- style css -->
 
     <link rel="stylesheet" href="css/style.css">
@@ -66,11 +70,11 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">About</a>
-        <a class="nav-link" href="#">Our Tours</a>
-        <a class="nav-link" href="#">Gallery</a>
-        <a class="nav-link" href="#">Blog</a>
-        <a class="nav-link" href="#">Contact Us</a>
+        <a class="nav-link" href="http://127.0.0.1:5500/about.html">About</a>
+        <a class="nav-link" href="http://127.0.0.1:5500/ourtour.html">Our Tours</a>
+        <a class="nav-link" href="http://127.0.0.1:5500/gallery.html">Gallery</a>
+        <a class="nav-link" href="http://127.0.0.1:5500/blog.html">Blog</a>
+        <a class="nav-link" href="http://127.0.0.1:5500/contact.html">Contact Us</a>
         <a class="nav-link" href="#">Pages</a>
         <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Gallery</a> -->
       </div>
@@ -133,42 +137,49 @@
 <div class="container">
   <div class="row">
     <div class="col-lg-6 col-md-12 col-12 ">
-      <div class="left_part">
-        <h1>ABOUT US</h1>
-        <h2>Discover the world with us</h2>
-        <h3>
-          We pride ourselves on being travel experts. Leading the 
-          way when it comes to providing unique travel 
-          experiences, our brands offer the world's best polar 
-          expeditions, wildlife safaris, cultural tours, yachting 
-          adventures and more.Having clear grammar and spelling allows people to put their trust in your business. It shows that you pay attention to detail, especially when your tours and activities require a high level of safety. When writing your description for tours and travels, it’s recommended that you type it out with the help of an online grammar checker.
-        </h3>
-        <h4>
-          Our ambition is to build the world's leading experiential 
-          travel company. With over 2500 colleagues across 30 
-          countries worldwide, we are working together to achieve 
-          this by sharing our knowledge, expertise and best 
-          practices to stay at the forefront of the travel industry.
-        </h4>
-        <button type="button">Learn More</button>
+      <div data-aos="fade-right">
+        <div class="left_part">
+          <h1>ABOUT US</h1>
+          <h2>Discover the world with us</h2>
+          <h3>
+            We pride ourselves on being travel experts. Leading the 
+            way when it comes to providing unique travel 
+            experiences, our brands offer the world's best polar 
+            expeditions, wildlife safaris, cultural tours, yachting 
+            adventures and more.Having clear grammar and spelling allows people to put their trust in your business. It shows that you pay attention to detail, especially when your tours and activities require a high level of safety. When writing your description for tours and travels, it’s recommended that you type it out with the help of an online grammar checker.
+          </h3>
+          <h4>
+            Our ambition is to build the world's leading experiential 
+            travel company. With over 2500 colleagues across 30 
+            countries worldwide, we are working together to achieve 
+            this by sharing our knowledge, expertise and best 
+            practices to stay at the forefront of the travel industry.
+          </h4>
+          <button type="button">Learn More</button>
+        </div>
       </div>
     </div>
     <div class="col-lg-3 col-md-7 col-7 image_space">
-      <div class="images">
-        <img src="images/image 5.png" width="400px" height="275px" alt="image">
-        <img src="images/image 6.png" width="400px" height="275px" alt="image">
+      <div data-aos="fade-left">
+        <div class="images">
+          <img src="images/image 5.png" width="400px" height="275px" alt="image">
+          <img src="images/image 6.png" width="400px" height="275px" alt="image">
+        </div>
       </div>
     </div>
     <div class="col-lg-3 col-md-5 col-5 image_space" id="about_image">
-      <img src="images/image 4.png" width="400px" height="580px" alt="image">
+      <div data-aos="fade-left">
+        <img src="images/image 4.png" width="400px" height="580px" alt="image">
+      </div>
     </div>
   </div>
 </div>
-
+</div>
 
 
 <!-- why choose us -->
 
+<div data-aos="fade-up">
 <section class="choose">
   <div class="container">
   <div class="row">
@@ -194,7 +205,7 @@
   </div>
 </div>
 </section>
-
+</div>
 
 
 <!-- travel destination -->
@@ -462,6 +473,7 @@
 <div class="container sevice_package">
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-12">
+      <div data-aos="fade-right">
       <div class="services">
           <div class="box_icon">
             <svg id="package_icon" class="servive_icon">
@@ -523,13 +535,18 @@
           </div>
         </div>
       </div> -->
+      </div>
     </div>
 
+
     <div class="col-lg-4 col-md-4 col-sm-12 service_image">
-      <img src="images/tour-removebg-preview 1.png" width="500px" height="500px" alt="image">
+      <div data-aos="zoom-in">
+        <img src="images/tour-removebg-preview 1.png" width="500px" height="500px" alt="image">
+      </div>
     </div>
 
     <div class="col-lg-4 col-md-4 col-sm-12">
+      <div data-aos="fade-left">
       <div class="services">
           <div class="box_icon">
             <svg id="insurance_icon" class="servive_icon">
@@ -562,6 +579,7 @@
             <h1>couple Travel</h1>
             <p>It is a long established fact that a reader a will distracted. Having clear grammar and spelling allows people to put their trust in your business.</p>
           </div>
+      </div>
       </div>
     </div>
     
@@ -615,6 +633,7 @@
 
 <!-- trending destination -->
 
+<div data-aos="fade-up">
 <div class="container trending">
   <div class="row">
     <div class="col-lg-8 col-md-12 col-12">
@@ -646,6 +665,7 @@
       <img src="images/image 16.png" class="image_gap" width="250px" height="350px" alt="image">
     </div>
   </div>
+</div>
 </div>
 
 
@@ -839,6 +859,8 @@
       </div>
   </div>
 </div>
+
+
 <!-- script -->
 
 <!-- bootstrap script -->
@@ -869,9 +891,9 @@
         el: ".swiper-pagination",
         clickable: true,
       },
-    //   autoplay: {
-    //   delay: 4000,
-    //  },
+      autoplay: {
+      delay: 4000,
+     },
       breakpoints: {
         539: {
           slidesPerView: 4,
@@ -914,11 +936,18 @@
           spaceBetween: 50,
         },
       },
-    //   autoplay: {
-    //   delay: 4000,
-    //  },
+      autoplay: {
+      delay: 2000,
+      },
     });
 </script>
 
+
+<!-- animation js -->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
